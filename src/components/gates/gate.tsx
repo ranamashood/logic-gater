@@ -3,11 +3,11 @@ import styled from "styled-components";
 import Terminal from "../terminal";
 
 interface Props {
-  Type: React.ComponentType;
+  type: React.ComponentType;
   inputs?: number;
 }
 
-const Gate = ({ Type, inputs = 2 }: Props) => {
+const Gate = ({ type: Type, inputs = 2 }: Props) => {
   return (
     <Container>
       <Inputs>
